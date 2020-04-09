@@ -178,10 +178,18 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 Consider use dict()
-
-
-
-
+ANS:
+def dictionary_squares(number):
+    self = dict()
+    i = 1
+    while i <= number:
+        sqr = i*i
+        self[i] = sqr
+        i += 1
+    return self
+	
+number = int(input("Enter the number "))
+print(dictionary_squares(number))
 
 
 Question:
@@ -195,6 +203,33 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 tuple() method can convert list to tuple
+
+ANS:
+def listandtuple():
+	listofnumber = []
+	number = int(input("Enter the number"))
+	while number!=0:
+		number = int(input("Enter the number"))
+		listofnumber.append(number)
+	return listofnumber
+ 
+ 
+listofnumbers = listandtuple()
+print(listofnumbers)
+tupleofnumber = tuple(listofnumbers)
+print(tupleofnumber)
+
+output:
+Enter the number6
+Enter the number3
+Enter the number2
+Enter the number1
+Enter the number6
+Enter the number7
+Enter the number0
+[3, 2, 1, 6, 7, 0]
+(3, 2, 1, 6, 7, 0)
+    
 
 
 
@@ -339,7 +374,15 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+def evendigit():
+	values=[]
+	for x in range(1000,3000):
+    	s=str(x)
+    	if (int(s[0]) %2 == 0) and (int(s[1]) %2 == 0) and (int(s[2]) %2 == 0) and (int(s[3]) %2 == 0):
+       	values.append(s)
+	return values
 
+print(evendigit())
 
 
 
@@ -353,6 +396,20 @@ DIGITS 3
 
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
+
+ANS:
+	def function(s):
+    		digits = letters = 0
+    		for c in s:
+        			if c.isdigit():
+            				digits = digits + 1
+        			else:
+            				letters = letters + 1
+    		print("Letters", letters)
+    		print("Digits", digits)
+
+s = input("Input a string")
+function(s)
 
 
 
@@ -371,6 +428,20 @@ Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
 
+def function(s):
+    		uppercase = lowercase = 0
+    		for c in s:
+        			if c.isupper():
+            				uppercase += 1
+        			elif c.islower():
+            				lowercase += 1
+        			else:
+            				None
+    		print("No. of Upper case characters : ", uppercase)
+    		print("No. of Lower case Characters : ", lowercase)
+
+
+	function('Hello world')
 
 
 
