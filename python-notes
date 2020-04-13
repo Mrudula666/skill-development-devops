@@ -1,0 +1,94 @@
+1.organising the modules
+2. Dictories, Modules, lists.
+
+
+
+Convenient import with api ---->python modules
+
+conveninent execution from command line ----> python scripts
+
+when we define a function in python program, we can import the functions in another program by using import key word.
+
+
+
+
+sparse is better than dense
+
+
+"""Documenting the python code. Using the docString""""
+
+
+comments---->shebang --->#!/->uses to find which interpreter is used by the code
+
+2. python garbage collector 
+
+id() funtion ---> gives the address of the varible declared t+=2
+
+
+Value and equality
+ Argument parsing----> 
+ 
+ type system
+ 
+ 
+ collections: 
+ 
+		str
+		lists
+		tuple
+		dict
+		range
+		set
+		
+	in lists == .extend() is equal to +=
+	
+	
+	Exception handler in python:
+	
+			types of exceptions in python:
+					Indendation error
+					Name Error
+					SyntaxError
+					IndexError
+					ValueError
+					TypeError
+					
+		syntax:
+				try:
+						"""some code"""
+				except <Error>:
+							"""Message"""
+							
+					raise for the custom exceptions
+					
+Two philosiphies:
+	Look Before You Leap -> add premptive tests for the object check.
+		
+	Ask for Forgiveness Than Permission
+	
+	
+	cleanup actions
+	
+	platform specific code:
+			for windows msvcrt # module to store the keypress. just like key locker
+			for macOs, #we use sys, tty, termios 
+			
+			
+			
+ITERABLE OBJECTS:
+		List comprehensions.
+		Set Comprehensions. --> removes the duplicates
+		Dictionary comprehensions.
+		
+		converting the list to set:
+				[] -> {}
+		pprint 
+		
+		iter() for iterating the squence
+		generators are python iterators
+
+
+Methods, Instance Methods, self-> first arguments to all instance methods
+
+
+intializers --> __init__() is a intializer not constructor

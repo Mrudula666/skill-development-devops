@@ -1,0 +1,86 @@
+Groovy fundamentals:
+		Java is more than a language
+		why groovy
+		installing the groovy
+		working with groovy
+		
+		
+java ---> helps in working with server side architecture.
+platform:
+		scala, groovy are alternatively for JVM 
+		
+		
+Groovy :
+		-> dynamic language
+		-> complies to JVM bytecode
+		-> brings the advanced concepts to jvm
+		-> has mature IDE support ()
+		
+What are dynamic languages?
+		1. Java is a static language
+		2. illsuited to work with flexible data format
+	Groovy is a dynamic language:
+		1. More suitable for run time
+		2. help in more rapid development
+		3. helps to work with felxible data- format
+		4. language type-system. 
+		5. careful with bugs
+		6. performance is slower
+strongly and weakly typed:
+		1. not allow inapproriate operations on an object
+		
+ Polyglot programming:
+ 
+ 
+compile the groovy script -> groovyc cmd
+
+
+IDEs for groovy:
+		eclipse
+		
+gstring: $
+
+
+Range in groovy:
+		1 ..
+		2. Enum
+each method in groovy:
+findAll()
+
+dynamic capabiliteies in groovy:
+		1. gives the automatic datatypes by using def keyword
+		
+duck typing:
+ the type is assigned at the run time rather than the comiple time
+ 
+ duck typing is extremely power-full
+ unit testing is very important.
+ 
+ advance collection handling than java and functional typing
+ 
+ 
+
+groovy with XML:
+	dependency 
+	
+	GPX data -> xml format for exchange GPS data
+	 syntax: 
+	 <? xml version ="1.0.9" standalone = "yes"?>
+	 <gpx>
+		<name></name>										-> metadata elements{CDATA}
+		<description></description>
+		
+		<wpt></wpt>  - > waypoint which describes the latitudes ,longitudes, elevation, timestamp
+		
+		<rte>
+			<rtept></rept> -> route points
+		</rte>
+		
+		
+	 </gpx>
+
+Reading XML:
+		DOMCategory
+		xmlParser
+			eager evaluation
+		XMLSlurper - > reads the xml file

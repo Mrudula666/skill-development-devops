@@ -1,8 +1,8 @@
-Open a new Python interpreter(REPL) and use it to find the value of 2 + 3.
+1.Open a new Python interpreter(REPL) and use it to find the value of 2 + 3.
 opening the REPL we use python3
 2+3 = 5
 
-Create a python script to print hello, world! four times.
+2. Create a python script to print hello, world! four times.
 
  n = 1
 >>> while n <= 4:
@@ -16,7 +16,7 @@ Hello, Python
 
 Create a python script with the following text and see the output.
 
-Write a function istrcmp to compare two strings, ignoring the case.
+3. Write a function istrcmp to compare two strings, ignoring the case.
 			
 		def istrcmp(string_1,string_2):
 ...     isEqual = False
@@ -30,14 +30,14 @@ Enter the String Mrudulaa
 Enter the String mrudulaa
 >>> print(istrcmp(string_1,string_2))
 True
-What will be output of the following program?
+4. What will be output of the following program?
 print (2 < 3 and 3 > 1) -> True
 print (2 < 3 or 3 > 1) -> True
 print (2 < 3 or not 3 > 1) -> True
 print (2 < 3 and not 3 > 1) -> False
 
 
-What will be output of the following program?
+5. What will be output of the following program?
 x = 4
 y = 5
 p = x < y or x < z
@@ -47,14 +47,14 @@ ANS:
 		True
 
 
-What will be output of the following program?
+6. What will be output of the following program?
 True, False = False, True
 print (True, False) -> cannot assign to True
 print (2 < 3
 ) -> True
 
 
-What happens when the following code is executed? Will it give any error? Explain the reasons.
+7. What happens when the following code is executed? Will it give any error? Explain the reasons.
 x = 2
 if x == 2:
 	print x
@@ -70,14 +70,14 @@ ANS:
 			
 
 
-What happens the following code is executed? Will it give any error? Explain the reasons.
+8. What happens the following code is executed? Will it give any error? Explain the reasons.
 x = 2
 if x == 2:
 	print x
 else:
 	x +
 Ans: invalid syntax as x+ is not a statement.
-Question:
+9. Question:
 Write a program add.py that takes 2 numbers as command line arguments and prints its sum.as follows:-
 $ python add.py 3 5
 8
@@ -90,7 +90,7 @@ $ python add.py 2 9
 			print(a+b)
 		saved as add.py
 
-Question:
+10. Question:
 Write a function, isharshad that determines whether a number is a Harshad
 number (for number base 10).
 A Harshad number “is an integer that is divisible by the sum of its digits”
@@ -120,7 +120,7 @@ print(isharshad(number))
 
 
 
-Question:
+11. Question:
 Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
 between 2000 and 3200 (both included).
 The numbers obtained should be printed in a comma-separated sequence on a single line.
@@ -146,7 +146,7 @@ Enter the end number3200
 
 
 
-Question:
+12. Question:
 Write a program which can compute the factorial of a given numbers.
 The results should be printed in a comma-separated sequence on a single line.
 Suppose the following input is supplied to the program:
@@ -168,7 +168,7 @@ print("Factorial is ", findfactorial(number))
 
 
 
-Question:
+13. Question:
 With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
 Suppose the following input is supplied to the program:
 8
@@ -192,7 +192,7 @@ number = int(input("Enter the number "))
 print(dictionary_squares(number))
 
 
-Question:
+14. Question:
 Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.
 Suppose the following input is supplied to the program:
 34,67,55,33,12,98
@@ -234,7 +234,7 @@ Enter the number0
 
 
 
-Question:
+15. Question:
 Project Euler is a website with mathematical problems that should/could
 be solved by computers.
 Go to the Web-site http://projecteuler.net/ and solve some of the problems
@@ -246,7 +246,7 @@ As an example the problem number 16 can be solved in one line of Python:
 
 
 
-Question:
+16. Question:
 Define a class which has at least two methods:
 getString: to get a string from console input
 printString: to print the string in upper case.
@@ -260,7 +260,7 @@ Use __init__ method to construct some parameters
 
 
 
-Question:
+17. Question:
 Write a program that calculates and prints the value according to the given formula:
 Q = Square root of [(2 * C * D)/H]
 Following are the fixed values of C and H:
@@ -281,7 +281,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+18. Question:
 Write a program which takes 2 digits, X,Y as input and generates a 2-dimensional array. The element value in the i-th row and j-th column of the array should be i*j.
 Note: i=0,1.., X-1; j=0,1,¡­Y-1.
 Example
@@ -300,7 +300,7 @@ Note: In case of input data being supplied to the question, it should be assumed
 
 
 
-Question:
+19. Question:
 Write a program that accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically.
 Suppose the following input is supplied to the program:
 without,hello,bag,world
@@ -319,7 +319,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+20. Question:
 Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized.
 Suppose the following input is supplied to the program:
 Hello world
@@ -336,7 +336,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+21. Question:
 Write a program that accepts a sequence of whitespace separated words as input and prints the words after removing all duplicate words and sorting them alphanumerically.
 Suppose the following input is supplied to the program:
 hello world and practice makes perfect and hello world again
@@ -352,7 +352,7 @@ We use set container to remove duplicated data automatically and then use sorted
 
 
 
-Question:
+22. Question:
 Write a program which accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence.
 Example:00000
 0100,0011,1010,1001
@@ -367,7 +367,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+23. Question:
 Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
 The numbers obtained should be printed in a comma-separated sequence on a single line.
 
@@ -386,7 +386,7 @@ print(evendigit())
 
 
 
-Question:
+24. Question:
 Write a program that accepts a sentence and calculate the number of letters and digits.
 Suppose the following input is supplied to the program:
 hello world! 123
@@ -416,7 +416,7 @@ function(s)
 
 
 
-Question:
+25. Question:
 Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
 Suppose the following input is supplied to the program:
 Hello world!
@@ -446,7 +446,7 @@ def function(s):
 
 
 
-Question:
+26. Question:
 Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
 Suppose the following input is supplied to the program:
 9
@@ -462,7 +462,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+27. Question:
 Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.
 Suppose the following input is supplied to the program:
 1,2,3,4,5,6,7,8,9
@@ -476,7 +476,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+28. Question:
 Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
 D 100
 W 200
@@ -497,7 +497,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+29. Question:
 A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
 Following are the criteria for checking the password:
 1. At least 1 letter between [a-z]
@@ -521,7 +521,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+30. Question:
 You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers. The tuples are input by console. The sort criteria is:
 1: Sort based on name;
 2: Then sort based on age;
@@ -545,7 +545,7 @@ We use itemgetter to enable multiple sort keys.
 
 
 
-Question:
+31. Question:
 Define a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n.
 
 Hints:
@@ -554,7 +554,7 @@ Consider use yield
 
 
 
-Question:
+32. Question:
 A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:
 UP 5
 DOWN 3
@@ -579,7 +579,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+33. Question:
 Write a program to compute the frequency of the words from the input. The output should output after sorting the key alphanumerically. 
 Suppose the following input is supplied to the program:
 New to Python or choosing between Python 2 and Python 3? Read Python 2 or Python 3.
@@ -603,7 +603,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+34. Question:
     Write a method which can calculate square value of number
 
 Hints:
@@ -613,7 +613,7 @@ Hints:
 
 
 
-Question:
+35. Question:
     Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books. But Python has a built-in document function for every built-in functions.
     Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
     And add document for your own function
@@ -625,7 +625,7 @@ Hints:
 
 
 
-Question:
+36. Question:
     Define a class, which have a class parameter and have a same instance parameter.
 
 Hints:
@@ -637,7 +637,7 @@ Hints:
 
 
 
-Question:
+37. Question:
 Define a function which can compute the sum of two numbers.
 
 Hints:
@@ -646,7 +646,7 @@ Define a function with two numbers as arguments. You can compute the sum in the 
 
 
 
-Question:
+38. Question:
 Define a function that can convert a integer into a string and print it in console.
 
 Hints:
@@ -656,7 +656,7 @@ Use str() to convert a number to string.
 
 
 
-Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
+39. Define a function that can receive two integral numbers in string form and compute their sum and then print it in console.
 
 Hints:
 
@@ -666,7 +666,7 @@ Use int() to convert a string to integer.
 
 
 
-Question:
+40. Question:
 Define a function that can accept two strings as input and concatenate them and then print it in console.
 
 Hints:
@@ -677,7 +677,7 @@ Use + to concatenate the strings
 
 
 
-Question:
+41. Question:
 Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print al l strings line by line.
 
 Hints:
@@ -688,7 +688,7 @@ Use len() function to get the length of a string
 
 
 
-Question:
+42. Question:
 Define a function that can accept an integer number as input and print the "It is an even number" if the number is even, otherwise print "It is an odd number".
 
 Hints:
@@ -700,7 +700,7 @@ Use % operator to check if a number is even or odd.
 
 
 
-Question:
+43. Question:
 Define a function which can print a dictionary where the keys are numbers between 1 and 3 (both included) and the values are square of keys.
 
 Hints:
@@ -712,7 +712,7 @@ Use ** operator to get power of a number.
 
 
 
-Question:
+44. Question:
 Define a function which can print a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys.
 
 Hints:
@@ -725,7 +725,7 @@ Use range() for loops.
 
 
 
-Question:
+45. Question:
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the values only.
 
 Hints:
@@ -739,7 +739,7 @@ Use keys() to iterate keys in the dictionary. Also we can use item() to get key/
 
 
 
-Question:
+46. Question:
 Define a function which can generate a dictionary where the keys are numbers between 1 and 20 (both included) and the values are square of keys. The function should just print the keys only.
 
 Hints:
@@ -754,7 +754,7 @@ Use keys() to iterate keys in the dictionary. Also we can use item() to get key/
 
 
 
-Question:
+47. Question:
 Define a function which can generate and print a list where the values are square of numbers between 1 and 20 (both included).
 
 Hints:
@@ -766,7 +766,7 @@ Use list.append() to add values into a list.
 
 
 
-Question:
+48. Question:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the first 5 elements in the list.
 
 Hints:
@@ -782,7 +782,7 @@ Use [n1:n2] to slice a list
 
 
 
-Question:
+49. Question:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print the last 5 elements in the list.
 
 Hints:
@@ -797,7 +797,7 @@ Use [n1:n2] to slice a list
 
 
 
-Question:
+50. Question:
 Define a function which can generate a list where the values are square of numbers between 1 and 20 (both included). Then the function needs to print all values except the first 5 elements in the list.
 
 Hints:
@@ -812,7 +812,7 @@ Use [n1:n2] to slice a list
 
 
 
-Question:
+51. Question:
 Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). 
 
 Hints:
@@ -821,23 +821,48 @@ Use ** operator to get power of a number.
 Use range() for loops.
 Use list.append() to add values into a list.
 Use tuple() to get a tuple from a list.
+ANS: 
+def squareoftwonumbers(number):
+	listofnumbers = []
+	for i in range(1, number+1):
+            square = i**2
+            listofnumbers.append(square)
+	return listofnumbers
+    
+    
+number = int(input("Enter the number "))
+list_numbers = squareoftwonumbers(number)
+numbers = tuple(list_numbers)
+print(numbers)	
 
+Output: 
+C:\Users\LENOVO\Documents\python-assingments>python squareofnumbers.py
+Enter the number 20
+(1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400)
 
-
-
-
-
-Question:
+52. Question:
 With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
-
 Hints:
-
 Use [n1:n2] notation to get a slice from a tuple.
 
+ANS:
+def tuple_slicing(tuple_given):
+        half_number = int(len(tuple_given)/2)
+        tuple_1 = tuple_given[0:half_number]
+        print(tuple_1)
+        tuple_2 = tuple_given[half_number:len(tuple_given)]
+        print(tuple_2)
+    
+tuple_given = (1,2,3,4,5,6,7,8,9,10)
+tuple_slicing(tuple_given)
 
+output:
+C:\Users\LENOVO\Documents\python-assingments>python tuple_slicing.py
+(1, 2, 3, 4, 5)
+(6, 7, 8, 9, 10)
+--------------------------------------------------------------------------------------------------
 
-
-Question:
+53. Question:
 Write a program to generate and print another tuple whose values are even numbers in the given tuple (1,2,3,4,5,6,7,8,9,10). 
 
 Hints:
@@ -845,20 +870,57 @@ Hints:
 Use "for" to iterate the tuple
 Use tuple() to generate a tuple from a list.
 
+ANS: 
+def even_tuple(tuple_given):
+    listofevennumbers = []
+    for i in range(len(tuple_given)):
+        if tuple_given[i] % 2 == 0:
+            listofevennumbers.append(tuple_given[i])
+    return tuple(listofevennumbers)
+    
+numbers = (1,2,3,4,5,6,7,8,9,10)
+print(even_tuple(numbers))
 
-
-
-Question:
+output:
+python even_tuple.py
+(2, 4, 6, 8, 10)
+ 
+-------------------------------------------------------------------------------------------------- 
+ 
+54. Question:
 Write a program which accepts a string as input to print "Yes" if the string is "yes" or "YES" or "Yes", otherwise print "No". 
 
 Hints:
 
 Use if statement to judge condition.
 
+ANS:
+def print_Yes(given_string):
+
+        if given_string == "Yes" or given_string == "YES" or given_string == "yes":
+            given_string = "Yes"
+        else:
+            given_string = "No"
+        return given_string
+   
+given_string = input("Enter the String: ")
+print(print_Yes(given_string))
+
+output:
+test case 1: Enter the String: YES
+Yes
+test case 2:  Enter the String: yes
+Yes
+test case 3: Enter the String: Yes
+Yes
+test case 4: python print_yes.py
+Enter the String: Hi
+No
+
+------------------------------------------------------------------------------------------------
 
 
-
-Question:
+55. Question:
 Write a program which can filter even numbers in a list by using filter function. The list is: [1,2,3,4,5,6,7,8,9,10].
 
 Hints:
@@ -866,12 +928,20 @@ Hints:
 Use filter() to filter some elements in a list.
 Use lambda to define anonymous functions.
 
+ANS:
 
+def filter_Even(listOfNumbers):
+        EvenNumbers = list(filter(lambda x:x%2 == 0 , listOfNumbers))
+        print(EvenNumbers)
+    
+listOfNumbers = [1,2,3,4,5,6,7,8,9,10]
+filter_Even(listOfNumbers)
 
+OutPut:
+python filter_even.py
+[2, 4, 6, 8, 10]
 
-
-
-Question:
+56. Question:
 Write a program which can map() to make a list whose elements are square of elements in [1,2,3,4,5,6,7,8,9,10].
 
 Hints:
@@ -879,11 +949,17 @@ Hints:
 Use map() to generate a list.
 Use lambda to define anonymous functions.
 
+Solution: 
+numbers = [1,2,3,4,5,6,7,8,9,10]
+squares = list(map(lambda x : x*x, numbers))
+print(squares)
+
+Output: 
+python map_square.py
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
 
-
-
-Question:
+57. Question:
 Write a program which can map() and filter() to make a list whose elements are square of even number in [1,2,3,4,5,6,7,8,9,10].
 
 Hints:
@@ -892,54 +968,84 @@ Use map() to generate a list.
 Use filter() to filter elements of a list.
 Use lambda to define anonymous functions.
 
+Solution:
+numbers = [1,2,3,4,5,6,7,8,9,10]
+even_numbers = list(filter(lambda x: x%2 == 0, numbers))
+squaresofEven = list(map(lambda x:x*x, even_numbers))
+print(squaresofEven)
+Output:
+python filter_map.py
+[4, 16, 36, 64, 100]
 
 
-
-Question:
+58. Question:
 Write a program which can filter() to make a list whose elements are even number between 1 and 20 (both included).
 
 Hints:
 
 Use filter() to filter elements of a list.
 Use lambda to define anonymous functions.
+Solution:
+even_numbers = list(filter(lambda x:x%2 == 0 , range(1, 20)))
+print(even_numbers)
+
+OutPut:
+python filter_range.py
+[2, 4, 6, 8, 10, 12, 14, 16, 18]
 
 
 
 
-Question:
+59. Question:
 Write a program which can map() to make a list whose elements are square of numbers between 1 and 20 (both included).
 
 Hints:
 
 Use map() to generate a list.
 Use lambda to define anonymous functions.
+Solution:
+square_numbers = list(filter(lambda x:x*x, range(1, 21)))
+print(square_numbers)
+Output:
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
 
-
-
-
-
-Question:
+60. Question:
 Define a class named American which has a static method called printNationality.
-
 Hints:
-
 Use @staticmethod decorator to define class static method.
+Solution:
+class American:
+    @staticmethod
+    def printNationality():
+        print("America")
+        
+country = American()
+country_name = country.printNationality()
+American.printNationality()
+Output:
+America
+America
 
-
-
-
-
-Question:
+61. Question:
 Define a class named American and its subclass NewYorker. 
 
 Hints:
 
 Use class Subclass(ParentClass) to define a subclass.
+Solution:
+class American(object):
+    pass
+        
+class NewYorker(American):
+    pass
+        
+american = American()
+print(american)
+newYorker = NewYorker()
+print(newYorker)
 
 
-
-
-Question:
+62. Question:
 Define a class named Circle which can be constructed by a radius. The Circle class has a method which can compute the area. 
 
 Hints:
@@ -949,7 +1055,7 @@ Use def methodName(self) to define a method.
 
 
 
-Question:
+63. Question:
 Define a class named Rectangle which can be constructed by a length and width. The Rectangle class has a method which can compute the area. 
 
 Hints:
@@ -958,7 +1064,7 @@ Use def methodName(self) to define a method.
 
 
 
-Question:
+64. Question:
 Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 
 Hints:
@@ -968,7 +1074,7 @@ To override a method in super class, we can define a method with the same name i
 
 
 
-Question:
+65. Question:
 Define a class named Shape and its subclass Square. The Square class has an init function which takes a length as argument. Both classes have a area function which can print the area of the shape where Shape's area is 0 by default.
 
 Hints:
@@ -977,7 +1083,7 @@ To override a method in super class, we can define a method with the same name i
 
 
 
-Question:
+66. Question:
 Write a function to compute 5/0 and use try/except to catch the exceptions.
 
 Hints:
@@ -989,7 +1095,7 @@ Use try/except to catch exceptions.
 
 
 
-Question:
+67. Question:
 Assuming that we have some email addresses in the "username@companyname.com" format, please write program to print the user name of a given email address. Both user names and company names are composed of letters only.
 
 Example:
@@ -1017,7 +1123,7 @@ Use \w to match letters.
 
 
 
-Question:
+68. Question:
 
 Write a program which accepts a sequence of words separated by whitespace as input to print the words composed of digits only.
 
@@ -1043,7 +1149,7 @@ Use re.findall() to find all substring using regex.
 
 
 
-Question:
+69. Question:
 Print a unicode string "hello world".
 
 Hints:
@@ -1057,7 +1163,7 @@ Use u'strings' format to define unicode string.
 
 
 
-Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
+70. Write a program to read an ASCII string and to convert it to a unicode string encoded by utf-8.
 
 Hints:
 
@@ -1067,7 +1173,7 @@ Use unicode() function to convert.
 
 
 
-Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
+71. Write a program to compute 1/2+2/3+3/4+...+n/n+1 with a given n input by console (n>0).
 
 Example:
 If the following n is given as input to the program:
@@ -1088,7 +1194,7 @@ Use float() to convert an integer to a float
 
 
 
-Question:
+72. Question:
 
 Write a program to compute:
 
@@ -1116,7 +1222,7 @@ We can define recursive function in Python.
 
 
 
-Question:
+73. Question:
 The Fibonacci Sequence is computed based on the following formula:
 
 
@@ -1146,7 +1252,7 @@ We can define recursive function in Python.
 
 
 
-Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
+74. Please write a program using generator to print the numbers which can be divisible by 5 and 7 between 0 and n in comma separated form while n is input by console.
 
 Example:
 If the following n is given as input to the program:
@@ -1171,7 +1277,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
-Question:
+75. Question:
 Please write assert statements to verify that every number in the list [2,4,6,8] is even.
 
 
@@ -1185,7 +1291,7 @@ Use "assert expression" to make assertion.
 
 
 
-Question:
+76. Question:
 
 Please write a program which accepts basic mathematic expression from console and print the evaluation result.
 
@@ -1208,7 +1314,7 @@ Use eval() to evaluate an expression.
 
 
 
-Question:
+77. Question:
 
 Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
 
@@ -1221,7 +1327,7 @@ Use if/elif to deal with conditions.
 
 
 
-Question:
+78. Question:
 
 Please write a binary search function which searches an item in a sorted list. The function should return the index of element to be searched in the list.
 
@@ -1237,7 +1343,7 @@ Use if/elif to deal with conditions.
 
 
 
-Question:
+79. Question:
 
 Please generate a random float where the value is between 10 and 100 using Python math module.
 
@@ -1253,7 +1359,7 @@ Use random.random() to generate a random float in [0,1].
 
 
 
-Question:
+80. Question:
 
 Please write a program to output a random even number between 0 and 10 inclusive using random module and list comprehension.
 
@@ -1268,7 +1374,7 @@ Use random.choice() to a random element from a list.
 
 
 
-Question:
+81. Question:
 
 Please write a program to shuffle and print the list [3,6,7,8].
 
@@ -1281,7 +1387,7 @@ Use shuffle() function to shuffle a list.
 
 
 
-Question:
+82. Question:
 Please write a program to generate all sentences where subject is in ["I", "You"] and verb is in ["Play", "Love"] and the object is in ["Hockey","Football"].
 
 Hints:
@@ -1293,7 +1399,7 @@ Use list[index] notation to get a element from a list.
 
 
 
-Question:
+83. Question:
 Please write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24].
 
 Hints:
@@ -1304,7 +1410,7 @@ Use list comprehension to delete a bunch of element from a list.
 
 
 
-Question:
+84. Question:
 
 By using list comprehension, please write a program to print the list after removing delete numbers which are divisible by 5 and 7 in [12,24,35,70,88,120,155].
 
@@ -1316,7 +1422,7 @@ Use list comprehension to delete a bunch of element from a list.
 
 
 
-Question:
+85. Question:
 
 By using list comprehension, please write a program to print the list after removing the 0th, 2nd, 4th,6th numbers in [12,24,35,70,88,120,155].
 
@@ -1329,7 +1435,7 @@ Use enumerate() to get (index, value) tuple.
 
 
 
-Question:
+86. Question:
 
 By using list comprehension, please write a program generate a 3*5*8 3D array whose each element is 0.
 
@@ -1339,7 +1445,7 @@ Use list comprehension to make an array.
 
 
 
-Question:
+87. Question:
 
 By using list comprehension, please write a program to print the list after removing the 0th,4th,5th numbers in [12,24,35,70,88,120,155].
 
@@ -1352,7 +1458,7 @@ Use enumerate() to get (index, value) tuple.
 
 
 
-Question:
+88. Question:
 
 By using list comprehension, please write a program to print the list after removing the value 24 in [12,24,35,24,88,120,155].
 
@@ -1365,7 +1471,7 @@ Use list's remove method to delete a value.
 
 
 
-Question:
+89. Question:
 
 With two given lists [1,3,6,78,35,55] and [12,24,35,24,88,120,155], write a program to make a list whose elements are intersection of the above given lists.
 
@@ -1376,14 +1482,14 @@ Use set() and "&=" to do set intersection operation.
 
 
 
-With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
+90. With a given list [12,24,35,24,88,120,155,88,120,155], write a program to print this list after removing all duplicate values with original order reserved.
 
 Hints:
 Use set() to store a number of values without duplicate.
 
 
 
-Question:
+91. Question:
 
 Define a class Person and its two child classes: Male and Female. All classes have a method "getGender" which can print "Male" for Male class and "Female" for Female class.
 
@@ -1395,7 +1501,7 @@ Use Subclass(Parentclass) to define a child class.
 
 
 
-Question:
+92. Question:
 
 Please write a program which count and print the numbers of each character in a string input by console.
 
@@ -1427,7 +1533,7 @@ Use dict.get() method to lookup a key with default value.
 
 
 
-Question:
+93. Question:
 
 Please write a program which accepts a string from console and print it in reverse order.
 
@@ -1449,7 +1555,7 @@ Use list[::-1] to iterate a list in a reverse order.
 
 
 
-Question:
+94. Question:
 
 Please write a program which accepts a string from console and print the characters that have even indexes.
 
@@ -1473,7 +1579,7 @@ Use list[::2] to iterate a list by step 2.
 
 
 
-Question:
+95. Question:
 
 Please write a program which prints all permutations of [1,2,3]
 
@@ -1489,7 +1595,7 @@ Use itertools.permutations() to get permutations of list.
 
 
 
-Question:
+96. Question:
 
 Write a program to solve a classic ancient Chinese puzzle: 
 We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have?
