@@ -1,0 +1,66 @@
+1. Regular expression for validating the password in python
+2. Reading the file and copy
+3. 
+
+
+	1. CI/CID pipeline
+	2. Jenkins.
+	3. python
+	4. groovy
+	5. docker basics
+	
+re module in python for regression expression
+
+
+Regex used to match and search for the expressions 
+
+re module used to deal with the regular expressions in python
+
+diferrence between print('\nTab') and print(r'\nTab') r= raw string
+
+
+re.compile() method allows to serparate the the patterns into  variables
+
+case sensitive 
+
+meta characters that need to be escaped from the re : . ^ $ * + ? { } [ ] \ | ( )
+
+. ^ $ * + ? { } [] \ | ()
+
+. ^ $ + [ ] { } | \ () ? 
+. ? \ | [] {} () * ^ $ + 
+
+^- negation
+
+quantifiers-> re.compile(r'\d\d\d.\d\d\d.\d\d\d\d') or re.compile(r'\d{3}.\d{3}.\d{4}'
+
+
+
+email pattern ---> re.compile(r'[a-zA-Z0-9]+@[a-zA-Z]+\.(com|net|org)')
+
+
+re.findall()
+re.match.group()
+re.search()
+re. IGNORECASE
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+datbase connection for python:
+
+	we can use databases like
+		1.SQLite 3
+		2.MySQL
+		3.PostgreSQL
+		4.Microsoft SQL Server 2008,2013,2016 etc.
+		5.Informix
+		6.Redshift
+		7.Oracle
+		8.Sybase
+
