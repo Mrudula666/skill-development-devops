@@ -31,6 +31,7 @@ NOTE: Do not forget to see manual page using "--help" option in command when sea
 12. Find out what is the IP Address of the Apache Tomcat Container that it is running on
 		docker inspect --format '{{.NetworkSettings.IPAddress}}' 7e00e4f3eb22 -----> 172.17.0.3
 13. Which Port it is using?
+		
 14. Try to access the Tomcat's home page from your machine/vm.
 15. What is the disk size of Apache Tomcat image?
 16. Find out list of all environment variables that is configured for tomcat image, can you see JAVA_HOME and CATALINA_HOME? What did you notice about it?
