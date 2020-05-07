@@ -1747,3 +1747,20 @@ Use for loop to iterate all possible solutions.
 
 
 
+97. Creating a banner in python
+
+solution:
+pip install pyfiglet
+import pyfiglet
+
+name=input("Em Custunnav. Nee peru cheppu")
+ascii_banner = pyfiglet.figlet_format(name)
+print(ascii_banner)
+
+
+For this we first shoup install pip to install the pyfiglet file from pip
+
+
+
+
+
