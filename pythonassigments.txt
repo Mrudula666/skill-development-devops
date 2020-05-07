@@ -456,6 +456,13 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+Solution:
+a = raw_input()
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+n4 = int( "%s%s%s%s" % (a,a,a,a) )
+print(n1+n2+n3+n4)
 
 
 
@@ -471,7 +478,10 @@ Then, the output should be:
 
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
-
+Solution:
+values = raw_input()
+numbers = [x for x in values.split(",") if int(x)%2!=0]
+print (",".join(numbers))
 
 
 
@@ -493,7 +503,21 @@ Then, the output should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-
+netAmount = 0
+while True:
+    s = raw_input()
+    if not s:
+        break
+    values = s.split(" ")
+    operation = values[0]
+    amount = int(values[1])
+    if operation=="D":
+        netAmount+=amount
+    elif operation=="W":
+        netAmount-=amount
+    else:
+        pass
+print(netAmount)
 
 
 
@@ -516,7 +540,28 @@ ABd1234@1
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
-
+import re
+value = []
+items=[x for x in raw_input().split(',')]
+for p in items:
+    if len(p)<6 or len(p)>12:
+        continue
+    else:
+        pass
+    if not re.search("[a-z]",p):
+        continue
+    elif not re.search("[0-9]",p):
+        continue
+    elif not re.search("[A-Z]",p):
+        continue
+    elif not re.search("[$#@]",p):
+        continue
+    elif re.search("\s",p):
+        continue
+    else:
+        pass
+    value.append(p)
+print(",".join(value))
 
 
 
@@ -539,8 +584,17 @@ Then, the output of the program should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 We use itemgetter to enable multiple sort keys.
+Solution:
+from operator import itemgetter, attrgetter
 
+l = []
+while True:
+    s = raw_input()
+    if not s:
+        break
+    l.append(tuple(s.split(",")))
 
+print(sorted(l, key=itemgetter(0,1,2)))
 
 
 
@@ -550,7 +604,17 @@ Define a class with a generator which can iterate the numbers, which are divisib
 
 Hints:
 Consider use yield
+Solution:
+def putNumbers(n):
+    i = 0
+    while i<n:
+        j=i
+        i=i+1
+        if j%7==0:
+            yield j
 
+for i in reverse(100):
+    print(i)
 
 
 
@@ -574,7 +638,28 @@ Then, the output of the program should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input.
 
+Solution:
+import math
+pos = [0,0]
+while True:
+    s = raw_input()
+    if not s:
+        break
+    movement = s.split(" ")
+    direction = movement[0]
+    steps = int(movement[1])
+    if direction=="UP":
+        pos[0]+=steps
+    elif direction=="DOWN":
+        pos[0]-=steps
+    elif direction=="LEFT":
+        pos[1]-=steps
+    elif direction=="RIGHT":
+        pos[1]+=steps
+    else:
+        pass
 
+print(int(round(math.sqrt(pos[1]**2+pos[0]**2))))
 
 
 
@@ -601,7 +686,17 @@ In case of input data being supplied to the question, it should be assumed to be
 
 
 
+Solution:
+freq = {}   # frequency of words in text
+line = raw_input()
+for word in line.split():
+    freq[word] = freq.get(word,0)+1
 
+words = freq.keys()
+words.sort()
+
+for w in words:
+    print("%s:%d" % (w,freq[w]))
 
 34. Question:
     Write a method which can calculate square value of number
@@ -609,7 +704,12 @@ In case of input data being supplied to the question, it should be assumed to be
 Hints:
     Using the ** operator
 
+Solution:
+def square(num):
+    return num ** 2
 
+print(square(2))
+print(square(3))
 
 
 
@@ -622,7 +722,20 @@ Hints:
     The built-in document method is __doc__
 
 
+Solution:
+print abs.__doc__
+print int.__doc__
+print raw_input.__doc__
 
+def square(num):
+    '''Return the square value of the input number.
+    
+    The input number must be integer.
+    '''
+    return num ** 2
+
+print(square(2))
+print(square.__doc__)
 
 
 36. Question:
@@ -633,7 +746,21 @@ Hints:
     You can init a object with construct parameter or set the value later
 
 
+Solution:
+class Person:
+    # Define the class parameter "name"
+    name = "Person"
+    
+    def __init__(self, name = None):
+        # self.name is the instance parameter
+        self.name = name
 
+jeffrey = Person("Jeffrey")
+print("%s name is %s" % (Person.name, jeffrey.name))
+
+nico = Person()
+nico.name = "Nico"
+print("%s name is %s" % (Person.name, nico.name))
 
 
 
@@ -644,6 +771,11 @@ Hints:
 Define a function with two numbers as arguments. You can compute the sum in the function and return the value.
 
 
+Solution
+def SumFunction(number1, number2):
+	return number1+number2
+
+print(SumFunction(1,2))
 
 
 38. Question:
@@ -652,7 +784,11 @@ Define a function that can convert a integer into a string and print it in conso
 Hints:
 
 Use str() to convert a number to string.
+Solution
+def printValue(n):
+	print str(n)
 
+printValue(3)
 
 
 
@@ -664,7 +800,11 @@ Use int() to convert a string to integer.
 
 
 
+Solution
+def printValue(n):
+	print str(n)
 
+printValue(3)
 
 40. Question:
 Define a function that can accept two strings as input and concatenate them and then print it in console.
